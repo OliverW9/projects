@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>survey</title>
+<link rel="stylesheet" type="text/css" href="../CSS/cookingStyles.css">
+</head>
+
+<body>
+
+<!-- Page Header -->
+<header>
+<h1>Cooking for Students</h1>
+<img class="imageBanner" src="../Images/cookingBanner.jpg">
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+<ul>
+<li><a href="Home.html">  Home  </a></li>
+<li><a href="italian.html">  Italian  </a></li>
+<li><a href="indian.html">  Indian  </a></li>
+<li><a href="thai.html">  Thai  </a></li>
+<li><a href="chinese.html">  Chinese  </a></li>
+<li><a href="survey.html">  Survey  </a></li>
+</ul>
+</nav>
+
+<!-- The main content of the page -->
+<main class="surveyMain">
+<h3>Student Cooking Website Survey</h3><br>
+
+<h4>Personal Details</h4><br>
+
+<form>
+    <div class="Personaldetails">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="age">Age:</label><br>
+
+
+        
+        <div class="ageOptions">
+        <input type="radio" id="Under 25" name="age" value="Under 25" required>
+        <label for="Under 25">Under 25</label>
+        <input type="radio" id="25-40" name="age" value="25-40" required>
+        <label for="25-40">25-40</label>
+        <input type="radio" id="Over 40" name="age" value="Over 40" required>
+        <label for="Over 40">Over 40</label>
+        <input type="radio" id="WRNS" name="age" value="WRNS" required>
+        <label for="WRNS">Would rather not say</label>
+        </div>
+    </div>
+
+    <br>
+    <h4>Favorite Food</h4>
+    <br>
+
+    <div id="FavoriteCountrycurrent">
+        <label for="FavCountry">What is your Favorite Country currently on the site:</label>
+        <select id="FavCountry" name="FavCurrentCountry" required>
+        <option value="it">Italian</option>
+        <option value="in">Indian</option>
+        <option value="th">Thai</option>
+        <option value="cn">Chinese</option>
+        </select>
+    </div>
+
+    <div id="NewCountry">
+        <label for="NCountry">Pick a new country to add to the site:</label>
+        <select id="NCountry" name="NewCountry" required>
+        <option value="vn">Vietnamese</option>
+        <option value="usa">American</option>
+        <option value="fr">French</option>
+        <option value="esp">Spanish</option>
+        </select>
+    </div>
+
+    <br><br>
+
+        <label for="CookingTechnique">Description of new cooking technique request:</label><br>
+        <textarea name="Introduction" id="NewCookingTechnique" rows="5" cols="118" maxlength="500"></textarea>
+
+    <br><br>
+    <h4>Please rate the following from 1 = Poor to 5 = excellent</h4>
+    <br><br>
+
+    Ease Of Website Use:<br>
+    <input type="number" name="EaseOfUse" required><br>
+
+    Quality Of Information:<br>
+    <input type="number" name="QualityOfInfo" required><br>
+
+    Taste Of Recipes:<br>
+    <input type="number" name="Taste" required><br><br>
+
+    <h4>Perission for my information to be held and used for futre developments</h4><br>
+
+    <input type="radio" name="Permission" value="yes" required>
+    Yes
+
+    <input type="radio" name="Permission" value="No" required>
+    No
+
+    <br><Br>
+
+        <input type="submit" value="submit">
+</form> 
+</main>
+
+<!-- Page Footer -->
+<footer>
+<h4>Links to Famous TV Chefs</h4>
+<ul class="tvChef">
+<li><a href="https://www.gordonramsay.com/">  Gordon Ramsay  </a></li>
+<li><a href="https://www.jamieoliver.com/">  Jamie Oliver  </a></li>
+<li><a href="https://www.marcopierrewhite.co/">  Marco Pierre White  </a></li>
+</ul>
+</footer>
+
+</body>
+</html>
+
+

@@ -1,0 +1,23 @@
+<div class="chineseSpacing">
+    <h2>Chinese Cooking</h2>
+</div>
+
+<div class="chineseSpacing">
+    <p>Chinese cuisine is an important part of Chinese culture.  Chinese food has influenced many other cuisines in Asia, with modifications made to cater to local palates.<br><br>
+    The preference for seasoning and cooking techniques often depends on historical background and regional differences. Geography also plays a part with mountains, rivers, forests and deserts having a strong effect on the local ingredients.<br><br>  
+    Because of imperial expansion and trading, ingredients and cooking techniques from other cultures are integrated into Chinese cuisines over time.<br><br>
+    China has four main cuisines.  These are Chuan (west), Lu (north), Yue (south) and Huaiyang (east).<br><br>
+    As with other countries, colour, smell and taste are important aspects of Chinese food.  In addition to these the meaning, appearance and nutrition of the food is also important.<br><br>
+    Chopsticks are the main eating utensils for Chinese food because it is considered inappropriate to use knives on the dining table.</p>
+    <p><a href="wok.html"> Wok Techniques </a><br><a href="stirFry.html">Stir-fry Ingredients</a></p>
+</div>
+
+<div class="chineseSpacing">
+    <h2>Free Guide to Stir Fry Cooking</h2>
+    <p>Complete the form below if you wish to be sent a free stir-fry cooking guide.</p>
+</div>
+
+<form class="chineseSpacing">
+
+
+</form>

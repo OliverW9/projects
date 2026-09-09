@@ -1,0 +1,213 @@
+/* The Universal Selector has been used here to cancel the browser default margins and */
+/* padding for every page element.  This ensures that only assigned */
+/* margin and padding values are implemented when viewing pages. */
+/*#e80300 - red #090100 - black #f9ae14 - yellow #aca33d - green */
+* {margin:0;padding:0}
+
+/* Background Colours */
+
+.recipesBG, main, footer {
+    background-color: #f9ae14;
+}
+
+body {
+    background-color: #d69b26;
+}
+
+/* Text Properties */
+
+.tvChef {
+    list-style-type: none; 
+}
+
+h1 {
+    color: #090100;
+}
+
+p, footer, nav {
+    color: #b30f0c;
+}
+
+/* Margins */
+
+.ageOptions label{
+  display: inline;
+  margin-right: 16%;
+}
+
+main {
+    margin: 10px 0px 10px 0px ;
+}
+
+header {
+    margin: 0;  
+}
+
+.italianImages {
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+body{
+        margin: auto;
+}
+
+p, h2, nav{
+    margin-top: 0px;
+}
+
+.thaiIngredient {
+    margin-right: 10px;
+}
+
+.thaiIngredient img, .spices img {
+    margin: 10px;
+}
+
+form input, .ThaiRecipes {
+    margin-bottom: 10px;
+}
+
+/* Padding */
+
+footer {
+    padding: 10px 0px 0px 10px;
+}
+
+.studentPhoto {
+    padding: 0px 20px 20px 0px;
+}
+
+h1 { 
+    padding: 50px 0px 0px 30px;
+}
+
+.recipesBG, main { 
+    padding: 10px;
+}
+
+/* Positioning (Float, Display and Clear) */
+
+input[type=text] {
+    width: 100%;
+}
+
+.thaiCurries, .imageBanner, #NewCountry {
+    float: right;
+}
+
+.commonIngredient{
+    clear: right;
+}
+
+h1, .thaiIngredient, .ThaiRecipes, #FavoriteCountrycurrent{
+    float: left;
+}
+
+.thaiIngredient img, .thaiCurries{
+    display: block;
+    margin: 10px;
+}
+
+
+footer{
+    clear: both;
+}
+/* Element Sizes */
+
+.pizzaImage {
+    height: 70px; 
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.italianImages {
+    width: 140px;
+    height: 140px;
+} 
+
+.italianImagesDiv{
+    height: 190px;
+}
+
+.surveyMain {
+    height: 720px;
+}
+
+.imageBanner{
+    width: 550px;
+    height: 90px;
+}
+
+.ThaiRecipes{
+    width: 630px;
+}
+
+body {
+    width: 900px;
+}
+
+header, footer {
+    height: 90px;
+}
+
+.thaiIngredient img, .studentPhoto{
+    width: 160px;
+    height: 120px;
+}
+
+.thaiCurries {
+    width: 200px;
+}
+
+.imageStirFry, .thaiCurries , .spices img{
+    height: 150px;
+}
+
+.spices img {
+    width: 180px;
+}
+
+.imageStirFry {
+    width: 290px;
+}
+
+.commonIngredient {
+    height: 400px;
+}
+
+.recipesBG {
+    height: 425px;
+}
+/* Navigation List Properties */
+
+nav {
+    clear: both;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #be5e1e;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  /* text-decoration: none; */
+}
+
+nav ul li a:hover {
+  background-color: #be8512;
+}
+
