@@ -1,0 +1,66 @@
+
+<!--Oliver-->
+<!--150698154-->
+
+<html>
+	<head>
+		<title>Book</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+	</head>
+
+	<body>
+		<header>
+			Breakout Lab
+		</header>
+
+		<nav>
+		  <ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="rooms.html">Rooms</a></li>
+			<li><a href="challenge.html">Challenge</a></li>
+			<li><a href="questions.html">FAQs</a></li>
+			<li><a href="contact.html">Contact us</a></li>
+		  </ul>
+		</nav>
+
+		<main id="bookMain">
+			<h1>Contact us</h1>
+			<br>
+			<p>Enter your details below including party size, which room(s) you are interested in,  
+			challenge level and any special requirements. We will get back to you within 24 hours.</p> 
+			<br>
+			
+			<form>
+				<h4>*indicates cannot be left blank</h4>
+				<br>
+				
+				Name:*
+				<input type="text" name="name" maxlength="20" size="20" required><br><br>
+
+				Email:*
+				<input type="text" name="email" maxlength="50" size="50" required><br><br>
+				
+				Number of people:*
+    			<input type="number" name="NumOfPeople" min="1" max="5" required><br><br>
+				
+				Select room(s)*:
+      			<select name="room" size="2" required multiple>
+        		<option value="jungle">jungle</option>
+        		<option value="carnival">carnival</option>
+				</select><br><br>
+
+				select challenge:*
+    			<input type="radio" name="level" value="Novice" checked> Novice
+    			<input type="radio" name="level" value="Amateur"> Amateur
+				<input type="radio" name="level" value="Expert"> Expert
+    			<br><br>
+
+				If required, please state any special requirements:<br>
+				<textarea name="requirements" rows="10" cols="75"></textarea><br><br>
+
+				<input type="submit" onclick="alert('Form Entered')" value="Submit">
+			</form>
+		</main>
+
+	</body>
+</html>

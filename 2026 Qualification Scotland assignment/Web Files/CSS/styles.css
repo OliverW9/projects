@@ -1,0 +1,127 @@
+/* Oliver Wood */
+/* 150698154 */
+
+* {margin:0;padding:0}
+
+header{
+	background-color: #121212;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	font-size: 20px;
+}
+
+nav ul li {
+	float: left;
+	width: 180px;
+	text-align: center;
+ }
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+	color: #E5E5E5;
+	background-color: #30343F;
+}
+
+nav ul li a:hover{
+	background-color: #D4AF37;
+	color: black;
+}
+
+body{
+	font-family: Verdana;
+	width: 900px;
+	margin: auto;
+	background-color: #3D3D3D;
+}
+
+main{
+	clear: both;
+	background-color: #b5a688;
+}
+
+main li{
+	margin-left: 40px;
+}
+
+h1{
+	text-align: center;
+}
+
+form {
+	padding: 20px;
+	text-align: left;
+}
+
+footer{
+	background-color: #30343F; 
+	color: white; 
+	padding: 10px; 
+	text-align: center;
+}
+
+#homeImage{
+	float:right;
+}
+
+#homeText{
+	height:400px;
+}
+
+#roomMain{
+	text-align:center;	
+	height: 550px;
+}
+
+#challengeMain{
+	text-align: center;
+}
+
+#bookMain{
+	text-align:center;	
+}
+
+.roomInfo{
+	float: left;
+	width: 300px;
+	height: 500px;
+	margin-left: 100px;
+	background-color: #d4b483; 
+}
+
+.overlay{
+	float: left;
+	margin-left: -300px;
+}
+
+.challengeImage{
+	float: right;
+	padding-left:30px;
+}
+
+.challengeLevel{
+	background-color: #d4b483;
+	width: 280px;
+	display: inline-block;
+}
+
+#left{
+	margin: 15px 0px 15px 15px;
+	float: left;
+}
+
+#middle{
+	margin: 15px 15px 15px;
+}
+
+#right{
+	margin: 15px 15px 15px 0;
+	float: right;
+}
+

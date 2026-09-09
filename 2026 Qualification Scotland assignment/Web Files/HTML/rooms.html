@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<!--Oliver-->
+<!--150698154-->
+
+<html>
+	<head>
+		<title>Rooms</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+		<script>
+			function displayJungle() {
+    document.getElementById("jungle").style.display="none";}
+
+	function displayCarnival() {
+    document.getElementById("carnival").style.display="none";}
+
+	function displaynone() {
+    document.getElementById("jungle").style.display="block";
+	document.getElementById("carnival").style.display="block";}
+		</script>
+	</head>
+
+	<body>
+		<header>
+			Breakout Lab
+		</header>
+
+		<nav>
+		  <ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="rooms.html">Rooms</a></li>
+			<li><a href="challenge.html">Challenge</a></li>
+			<li><a href="questions.html">FAQs</a></li>
+			<li><a href="contact.html">Contact us</a></li>
+		  </ul>
+		</nav>
+		
+		<main id="roomMain">
+			<h1>Hover over a room for more information</h1>
+
+			<section class="roomInfo" >
+				<h2>Jungle</h2>
+				<p>The Jungle Room plunges you into a dense, overgrown wilderness filled with 
+					ancient relics, mysterious carvings, and hidden clues. As you navigate through 
+					lush foliage and twisting vines, you will encounter puzzles that guard the secrets 
+					of a lost civilisation. Beware of hidden traps and challenges that test your wit 
+					and teamwork at every step. Solve the mysteries and escape the jungle before it 
+					swallows you whole!
+				</p>
+				<br>
+				<img src="../Images/Jungle_Room.jpg" width="200px">
+			</section>
+
+			<img src="../Images/Overlay.png" class="overlay" id="jungle" onmouseover="displayJungle()" onmouseout="displaynone()">
+		
+			<section class="roomInfo" >
+				<h2>Carnival</h2>
+				<p>The Carnival Room immerses you in a twisted, whimsical fairground where eerie 
+					laughter echoes through the air and secrets lurk behind every stall. Step into a 
+					world of distorted mirrors, enigmatic fortune tellers, and faded circus posters 
+					that hint at forgotten mysteries. Each game and attraction conceals a clue, but 
+					beware—nothing in this carnival is as it seems. Unravel the secrets before the 
+					lights flicker out, and the carnival vanishes for good!
+				</p>
+				<br>
+				<img src="../Images/Carnival_Room.jpg" width="200px">
+			</section>
+			
+			<img src="../Images/Overlay.png" class="overlay" id="carnival" onmouseover="displayCarnival()" onmouseout="displaynone()">
+	
+		</main>
+		
+		<footer>
+			<p>Breakout Lab 2026</p>
+		</footer>
+    </body>
+</html>
