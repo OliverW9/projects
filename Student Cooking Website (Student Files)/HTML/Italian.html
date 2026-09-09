@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script>
+
+    function BigImage(graphic) {
+        graphic.style.width='170px';
+        graphic.style.height='170px';
+        graphic.style.marginRight='10px';
+        graphic.style.marginTop='20px';
+    }
+
+    function SmallImage(graphic) {
+        graphic.style.width='140px';
+        graphic.style.height='140px';
+        graphic.style.marginRight='40px';
+        graphic.style.marginTop='50px';
+    }
+</script>
+<title>Italian</title>
+<link rel="stylesheet" type="text/css" href="../CSS/cookingStyles.css">
+</head>
+
+<body>
+
+<!-- Page Header -->
+<header>
+<h1>Cooking for Students</h1>
+<img class="imageBanner" src="../Images/cookingBanner.jpg">
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+<ul>
+<li><a href="Home.html">  Home  </a></li>
+<li><a href="italian.html">  Italian  </a></li>
+<li><a href="indian.html">  Indian  </a></li>
+<li><a href="thai.html">  Thai  </a></li>
+<li><a href="chinese.html">  Chinese  </a></li>
+<li><a href="survey.html">  Survey  </a></li>
+</ul>
+</nav>
+
+<!-- The main content of the page -->
+<main>
+<div>
+
+    <h2 style="float:left;display:inline">Italian Food</h2>
+    
+    <img src="../Images/italyFlag.png" style="width:75px;height:75px;float:right;margin-left:20px;margin-bottom:20px"> 
+    
+    <p style="clear:both">Italian food is known for its simplicity, with many recipes having only a handful of ingredients.  Around the country there are lots of regional dishes many of which are based on the staple food of pizza and pasta.  Pizza and pasta are well loved student dishes being both easy to make and cheap to prepare.  Click on the links below to see some easy to prepare Italian food.</p>
+    
+    <p><a href="pizzaBasics.html"> Pizza Recipes </a></p>
+    <p><a href="pizzaBasics.html"> Pasta Recipes </a></p>
+    
+    <div class="italianImagesDiv">
+        <img onmouseover="BigImage(this)" onmouseout="SmallImage(this)" class="italianImages" src="../Images/italy1.jpg" >
+        <img onmouseover="BigImage(this)" onmouseout="SmallImage(this)" class="italianImages" src="../Images/italy2.jpg">
+        <img onmouseover="BigImage(this)" onmouseout="SmallImage(this)" class="italianImages" src="../Images/italy3.jpg">
+        <img onmouseover="BigImage(this)" onmouseout="SmallImage(this)" class="italianImages" src="../Images/italy4.jpg" >
+    </div>
+</div>
+
+</main>
+
+<!-- Page Footer -->
+<footer>
+<h4>Links to Famous TV Chefs</h4>
+<ul class="tvChef">
+    <li><a href="https://www.gordonramsay.com/">  Gordon Ramsay  </a></li>
+    <li><a href="https://www.jamieoliver.com/">  Jamie Oliver  </a></li>
+    <li><a href="https://www.marcopierrewhite.co/">  Marco Pierre White  </a></li>
+</ul>
+</footer>
+
+</body>
+</html>
+
+
